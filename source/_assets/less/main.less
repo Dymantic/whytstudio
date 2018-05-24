@@ -1,0 +1,136 @@
+@tailwind preflight;
+
+@font-face {
+  font-family: "hel-neue";
+  src: url("/assets/fonts/HelveticaNeueLight.woff2"),
+    url("/assets/fonts/HelveticaNeueLight.woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "hel-neue";
+  src: url("/assets/fonts/HelveticaNeue.woff2"),
+    url("/assets/fonts/HelveticaNeue.woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "hel-neue";
+  src: url("/assets/fonts/HelveticaNeueBold.woff2"),
+    url("/assets/fonts/HelveticaNeueBold.woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "hel-neue";
+  src: url("/assets/fonts/HelveticaNeueBlack.woff2"),
+    url("/assets/fonts/HelveticaNeueBlack.woff");
+  font-weight: 900;
+}
+
+@tailwind utilities;
+
+.hero-banner {
+  background-image: url("/assets/images/girls_and_seagulls.jpg");
+  background-size: cover;
+  background-position: 50%;
+  min-height: 100vh;
+}
+
+.logo-block {
+  padding-bottom: 25.42%;
+  height: 0;
+  opacity: 0.5;
+}
+
+.flashdance {
+  animation-name: fadeInOut;
+  animation-delay: 1s;
+  animation-duration: 10s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+svg {
+  fill: currentColor;
+}
+
+.flip {
+  transform: scale(-1, -1);
+}
+
+.flip-flop {
+  transform: scale(1, -1);
+}
+
+.uncondensed {
+  letter-spacing: 0;
+}
+
+.super-condensed {
+  letter-spacing: -2px;
+}
+
+.super-super-condensed {
+  letter-spacing: -4px;
+}
+
+@media (max-width: 992px) {
+  .logo-section {
+    order: 0;
+  }
+
+  .details-section {
+    order: 1;
+  }
+
+  .hero-banner {
+    background-image: url("/assets/images/alt_banner.jpg");
+    background-size: cover;
+    background-position: 50%;
+    min-height: 100vh;
+  }
+}
+
+@media (max-width: 768px) and (max-height: 400px) {
+  .intro-section {
+    display: none;
+  }
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
