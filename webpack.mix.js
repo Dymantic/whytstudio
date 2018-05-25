@@ -14,9 +14,11 @@ mix.webpackConfig({
 });
 
 mix
+  .js("source/_assets/js/main.js", "js/main.js")
   .less("source/_assets/less/main.less", "css/main.css")
   .tailwind()
   .purgeCss({
-    globs: [path.join(__dirname, "source/**/*.blade.php")]
+    globs: [path.join(__dirname, "source/**/*.blade.php")],
+    whitelistPatternsChildren: [/flickity/]
   })
   .version();

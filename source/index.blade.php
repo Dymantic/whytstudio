@@ -78,7 +78,7 @@
                     />
                 </svg>
             </span>
-
+            
             <div class="relative h-0 mt-24" style="padding-bottom: 56.25%;">
                 <iframe src="https://player.vimeo.com/video/263832537?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0"
                     class="absolute pin-t pin-l w-full h-full" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -90,6 +90,20 @@
                     />
                 </svg>
             </span>
+            <div class="my-12">
+                    <div data-flickity='{"alignCells": "left", "autoPlay": 4000, "arrowShape": {"x0": 10, "x1": 60, "y1": 50, "x2": 60, "y2": 50, "x3": 50}, "wrapAround": true}'>
+                        <img class="w-full" src="/assets/images/riversimple/optimised/01StoryboardSketch.jpg" alt="the riversimple shoot crew">
+                        <img class="w-full" src="/assets/images/riversimple/optimised/02Crew(ShotSetting).jpg" alt="the riversimple shoot crew">
+                        <img class="w-full" src="/assets/images/riversimple/optimised/03Car(DoorsUp)Side.jpg" alt="the riversimple shoot crew">
+                        <img class="w-full" src="/assets/images/riversimple/optimised/04Car(Staff).jpg" alt="the riversimple shoot crew">
+                        <img class="w-full" src="/assets/images/riversimple/optimised/05Crew(ShotDiscuss).jpg" alt="the riversimple shoot crew">
+                        <img class="w-full" src="/assets/images/riversimple/optimised/06LargeMonitor(Workshop).jpg" alt="the riversimple shoot crew">
+                        <img class="w-full" src="/assets/images/riversimple/optimised/07Crew(Side)Workshop.jpg" alt="the riversimple shoot crew">
+                        <img class="w-full" src="/assets/images/riversimple/optimised/08Lighting(Warehouse).jpg" alt="the riversimple shoot crew">
+                        <img class="w-full" src="/assets/images/riversimple/optimised/09Extras(LongShadows).jpg" alt="the riversimple shoot crew">
+                        <img class="w-full" src="/assets/images/riversimple/optimised/10Crew.jpg" alt="the riversimple shoot crew">
+                    </div>
+            </div>
         </section>
 
 

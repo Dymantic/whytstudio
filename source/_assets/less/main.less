@@ -1,5 +1,7 @@
 @tailwind preflight;
 
+@import "~flickity/dist/flickity.css";
+
 @font-face {
   font-family: "hel-neue";
   src: url("/assets/fonts/HelveticaNeueLight.woff2"),
@@ -90,6 +92,23 @@ svg {
     background-size: cover;
     background-position: 50%;
     min-height: 100vh;
+  }
+}
+
+.flickity-prev-next-button {
+  background: transparent;
+
+  &:hover {
+    background: transparent;
+    svg path {
+      fill: #f8c04f;
+    }
+  }
+}
+
+.flickity-page-dots {
+  .dot.is-selected {
+    background: #f8c041;
   }
 }
 
